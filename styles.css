@@ -1,6 +1,32 @@
+body {
+    position: relative;
+}
 h1 {
   text-align: center;
+  margin: 0px;
 }
+
 p {
   text-align: center;
 }
+.header {
+  height: 200px;
+}
+.affix {
+  top: 0;
+  width: 100%;
+  /*to ensure navbar stays on top, check if better method later*/
+  z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.affix ~ .container-fluid {
+   position: relative;
+   top: 50px;
+}
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
