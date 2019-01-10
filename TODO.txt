@@ -1,0 +1,10 @@
+TO DO:
+
+- featured projects
+- link projects to github
+- content for about and contact me
+- icons for contact me
+- art portfolio page
+- wave header w/ svg
+- parallax header
+- readmore for projects on website
