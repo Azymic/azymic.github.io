@@ -1,9 +1,16 @@
 TO DO:
 
 - featured projects
-- link projects to github
+    - fill out content/brief
+    - add 2 more projects
 - content for about and contact me
+- link projects to github
+- why does bootstrap row mess with my margins? -15px
+- let sections expand dynamically as content changes (switch to "tall form in mobile")
+- fix navbar css on mobile
+- let navbar collapse on mobile after button is clicked OR tap outside to close? (see which ppl like)
 - icons for contact me
+- make buttons on navbar same size-ish, hover rect
 - art portfolio page
 - wave header w/ svg
 - parallax header

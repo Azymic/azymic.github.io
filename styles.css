@@ -1,15 +1,46 @@
+html {
+  background-color: #192129;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
     position: relative;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
 }
 h1 {
   font-family: 'Comfortaa', sans-serif;
   font-size: 52px;
-  color: white;
+  color: #ffffff;
+  background-color: #192129;
   margin: 0px;
+}
+h2 {
+  font-family: "Comfortaa",sans-serif;
+  color: #99cccc;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom:50px;
+  letter-spacing: 5px;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+}
+h3 {
+  font-family: 'Comfortaa', sans-serif;
+}
+h5{
+  font-family: 'Avenir-light', sans-serif;
+  color: #99cccc;
 }
 p {
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: #d4d7d0;
 }
 .header {
   /*ensure data-offset for navbar is equal to header height*/
@@ -21,36 +52,64 @@ p {
   background-position: 50% 50%;
   background-size: cover;
 }
-.header-text{
+.header-text {
   display: flex;
   flex-direction:column;
   text-align: center;
 }
-.navbar-toggler {
-  padding: .5rem 1rem;
+#tagline {
+  color: #99cccc;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #192129;
 }
-.nav-link {
-    font-family: 'Montserrat', sans-serif;
-    padding: 1rem 0.5rem;
-
+.navbar {
+  z-index: 999;
+  background-color: #192129;
 }
 @media screen and (min-width: 576px) {
   /* use navbar padding for mobile, nav-link for web so hover looks nicer */
   .navbar {
+    background-color: #192129;
     margin-bottom: 0px;
     border-radius: 0px;
     padding: 0px;
   }
 }
+.navbar-toggler {
+  padding: .5rem 1rem;
+}
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  padding: 1rem 0.5rem;
 
+}
 /*TODO: find way to set padding for mobile, media tag not working*/
 .nav-link:hover {
-    background-color: black;
+  background-color: #99cccc;
 }
-.set-width {
+.featured-project {
+  padding-right:80px;
+  padding-bottom:20px;
+}
+.featured-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* padding: 0px 0px 20px 0px; */
+}
+.col-md-6 {
+  padding-left: 0px;
+  flex: 1;
+}
+.featured-brief {
+  padding-left:20px;
+}
+/* .set-width {
   margin: auto;
   max-width: 900px;
-}
+} */
 
 /* Sticky class added by JavaScript when navbar reaches scroll position*/
 .sticky {
@@ -60,20 +119,23 @@ p {
 }
 /* Adds padding to content immediately after sticky class, prevents sudden quick movemebt */
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 56px;
 }
 #projects-section {
-  padding-left:80px;
-  padding-right:80px;
-  padding-top:50px;height:500px;color: #fff; background-color: #192129;
+  /* padding-left:80px; */
+  /* padding-right:80px; */
+  padding-top:50px;
+  /* padding: 0px; */
+  /* height:1500px; */
+  color: #fff; background-color: #343a40;
 }
 #about-section {
   padding-left:80px;
   padding-right:80px;
-  padding-top:50px;height:500px;color: #fff; background-color: #673ab7;
+  padding-top:50px;height:500px;color: #fff; background-color: #343a40;
 }
 #contact-section {
   padding-left:80px;
   padding-right:80px;
-  padding-top:50px;height:500px;color: #fff; background-color: #ff9800;
+  padding-top:50px;height:500px;color: #fff; background-color: #343a40;
 }
