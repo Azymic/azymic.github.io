@@ -1,4 +1,5 @@
 // Referenced from: https://stackoverflow.com/questions/37242754/how-do-i-change-the-background-image-every-x-seconds
+// asynchronous, closure funtions. Grabs strings from "identity" array
 const identity = [
   " student", "engineer", "artist"
 ]

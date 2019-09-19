@@ -2,6 +2,8 @@ html {
   background-color: #192129;
   max-width: 100%;
   overflow-x: hidden;
+  /* enables use of rem, change this as screen resolution changes */
+  font-size: 10px;
 }
 body {
     position: relative;
@@ -11,19 +13,19 @@ body {
 /* Default header settings */
 h1 {
   font-family: 'Comfortaa', sans-serif;
-  font-size: 52px;
+  font-size: 5.2rem;
   color: #ffffff;
   /* background-color: #192129; */
-  margin: 0px;
+  margin: 0;
 }
 h2 {
   font-family: "Comfortaa",sans-serif;
   color: #99cccc;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 100;
   text-align: center;
-  margin-bottom:50px;
-  letter-spacing: 5px;
+  margin-bottom: 5rem;
+  letter-spacing: 0.5rem;
   /* padding-top: 30px;
   padding-bottom: 30px; */
 }
@@ -43,24 +45,26 @@ p {
 .header {
   /*ensure data-offset for navbar is equal to header height*/
   display: flex;
-  height: 450px;
+  height: 45rem;
   /* align-items: center;
   justify-content: center; */
-  background: #343a40 url("grey-skies-for-background.jpg") fixed no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
+  background: #343a40
+  /* url("grey-skies-for-background.jpg") fixed no-repeat; */
+  /* background-position: 50% 50%; */
+  /* background-size: cover; */
 }
 .header-text {
   display: flex;
   flex-direction:column;
-  text-align: center;
+  align-items: left;
+  justify-content: center;
 }
 #tagline {
   color: #99cccc;
-  /* margin-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px; */
-  /* background-color: #192129; */
+  font-size: 2rem;
+}
+#identity-text{
+  color: #99cccc;
 }
 .navbar {
   z-index: 999;
@@ -70,9 +74,9 @@ p {
   /* use navbar padding for mobile, nav-link for web so hover looks nicer */
   .navbar {
     background-color: #192129;
-    margin-bottom: 0px;
-    border-radius: 0px;
-    padding: 0px;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 0;
   }
 }
 .navbar-toggler {
@@ -88,8 +92,8 @@ p {
   background-color: #99cccc;
 }
 .featured-project {
-  padding-right:80px;
-  padding-bottom:20px;
+  padding-right:8rem;
+  padding-bottom:2rem;
 }
 .featured-img {
   display: block;
@@ -98,11 +102,11 @@ p {
   /* padding: 0px 0px 20px 0px; */
 }
 .col-md-6 {
-  padding-left: 0px;
+  padding-left: 0;
   flex: 1;
 }
 .featured-brief {
-  padding-left:20px;
+  padding-left:2rem;
 }
 /* .set-width {
   margin: auto;
@@ -117,23 +121,23 @@ p {
 }
 /* Adds padding to content immediately after sticky class, prevents sudden quick movemebt */
 .sticky + .content {
-  padding-top: 56px;
+  padding-top: 5.6rem;
 }
 #projects-section {
   /* padding-left:80px; */
   /* padding-right:80px; */
-  padding-top:50px;
+  padding-top:5rem;
   /* padding: 0px; */
   /* height:1500px; */
   color: #fff; background-color: #343a40;
 }
 #about-section {
-  padding-left:80px;
-  padding-right:80px;
-  padding-top:50px;height:500px;color: #fff; background-color: #343a40;
+  padding-left:8rem;
+  padding-right:8rem;
+  padding-top:5rem;height:50rem;color: #fff; background-color: #343a40;
 }
 #contact-section {
-  padding-left:80px;
-  padding-right:80px;
-  padding-top:50px;height:500px;color: #fff; background-color: #343a40;
+  padding-left:8rem;
+  padding-right:8rem;
+  padding-top:5rem;height:50rem;color: #fff; background-color: #343a40;
 }
