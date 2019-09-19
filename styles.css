@@ -45,7 +45,7 @@ p {
 .header {
   /*ensure data-offset for navbar is equal to header height*/
   display: flex;
-  height: 45rem;
+  height: 40rem;
   /* align-items: center;
   justify-content: center; */
   background: #343a40
@@ -62,6 +62,8 @@ p {
 #tagline {
   color: #99cccc;
   font-size: 2rem;
+  font-family: 'Helvetica Neue', Helvetica, 'Avenir-Light', sans-serif;
+  font-weight: 20;
 }
 #identity-text{
   color: #99cccc;
@@ -69,6 +71,7 @@ p {
 .navbar {
   z-index: 999;
   background-color: #192129;
+  font-size: 1.6rem;
 }
 @media screen and (min-width: 576px) {
   /* use navbar padding for mobile, nav-link for web so hover looks nicer */
