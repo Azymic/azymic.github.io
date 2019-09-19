@@ -34,8 +34,12 @@ h2 {
   /* padding-top: 30px;
   padding-bottom: 30px; */
 }
+/* used for overlay */
 h3 {
-  font-family: 'Avenir-light', sans-serif;
+  margin: 0;
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
 }
 h4{
   font-family: 'Avenir-light', sans-serif;
@@ -135,8 +139,35 @@ https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
   object-fit: cover;
 
   /* circle with dark border on computer, TODO: make a square for mobile */
-  border-radius: 100%;
+  /* border-radius: 100%; */
   box-shadow: 5px 5px 20px #eee;
+}
+.overlay-img{
+ position: absolute;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ /* border-radius: 100%; */
+
+ background-color: #343a40;
+ opacity: 0;
+ transition: .5s ease;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+ padding: 2rem;
+}
+.overlay-img:hover {
+ opacity: 0.8;
+}
+.overlay-img p{
+  margin: 0.5rem 0;
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .col-md-6 {
