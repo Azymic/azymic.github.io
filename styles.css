@@ -42,6 +42,9 @@ p {
 }
 
 
+
+
+/* --------------------HEADER STYLES-------------------- */
 .header {
   /*ensure data-offset for navbar is equal to header height*/
   display: flex;
@@ -56,8 +59,9 @@ p {
 .header-text {
   display: flex;
   flex-direction:column;
-  align-items: left;
   justify-content: center;
+  padding-left: 12rem;
+  padding-right: 12rem;
 }
 #tagline {
   color: #99cccc;
@@ -68,6 +72,10 @@ p {
 #identity-text{
   color: #99cccc;
 }
+
+
+
+/* --------------------NAVBAR STYLES-------------------- */
 .navbar {
   z-index: 999;
   background-color: #192129;
@@ -97,16 +105,27 @@ p {
   /* to override annoying Bootstrap forced colour */
   color: #99cccc !important;
 }
+/* --------------------END NAVBAR STYLES-------------------- */
+
+
+
+/* --------------------PROJECT STYLES-------------------- */
+
+/* all of this is for responsive square crop on the images referenced from:
+https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
 .featured-project {
-  padding-right:8rem;
-  padding-bottom:2rem;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
 }
 .featured-img {
-  display: block;
+  position:absolute;
   width: 100%;
-  height: auto;
-  /* padding: 0px 0px 20px 0px; */
+  height: 100%;
+  background-color: #2980b9;
+  object-fit: cover;
 }
+
 .col-md-6 {
   padding-left: 0;
   flex: 1;
@@ -119,6 +138,11 @@ p {
   max-width: 900px;
 } */
 
+
+
+
+
+
 /* Sticky class added by JavaScript when navbar reaches scroll position*/
 .sticky {
   position: fixed;
@@ -129,9 +153,13 @@ p {
 .sticky + .content {
   padding-top: 5.6rem;
 }
+
+
+
+
 #projects-section {
-  /* padding-left:80px; */
-  /* padding-right:80px; */
+  padding-left:12rem;
+  padding-right:12rem;
   padding-top:5rem;
   /* padding: 0px; */
   /* height:1500px; */
