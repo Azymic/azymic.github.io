@@ -19,13 +19,18 @@ h1 {
   margin: 0;
 }
 h2 {
-  font-family: "Comfortaa",sans-serif;
-  color: #99cccc;
-  font-size: 2rem;
-  font-weight: 100;
-  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, 'Avenir-Light', sans-serif;
+  color: #343a40;
+  font-size: 3rem;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  text-decoration: underline wavy #99cccc;
+
+
+  /* text-align: center; */
   margin-bottom: 5rem;
-  letter-spacing: 0.5rem;
+  margin-top: 6rem;
   /* padding-top: 30px;
   padding-bottom: 30px; */
 }
@@ -34,7 +39,7 @@ h3 {
 }
 h4{
   font-family: 'Avenir-light', sans-serif;
-  color: #99cccc;
+  color: #192129;
 }
 p {
   font-family: 'Avenir-light', sans-serif;
@@ -65,9 +70,9 @@ p {
 }
 #tagline {
   color: #99cccc;
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-family: 'Helvetica Neue', Helvetica, 'Avenir-Light', sans-serif;
-  font-weight: 20;
+  font-weight: normal;
 }
 #identity-text{
   color: #99cccc;
@@ -110,7 +115,11 @@ p {
 
 
 /* --------------------PROJECT STYLES-------------------- */
-
+.row{
+  padding-bottom: 3rem;
+  /* background-color: #f7f7f7;*/
+  /* background-color: #ededed;  */
+}
 /* all of this is for responsive square crop on the images referenced from:
 https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
 .featured-project {
@@ -122,8 +131,12 @@ https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
   position:absolute;
   width: 100%;
   height: 100%;
-  background-color: #2980b9;
+  background-color: #343a40;
   object-fit: cover;
+
+  /* circle with dark border on computer, TODO: make a square for mobile */
+  border-radius: 100%;
+  box-shadow: 5px 5px 20px #eee;
 }
 
 .col-md-6 {
@@ -158,23 +171,25 @@ https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
 
 
 #projects-section {
-  padding-left:12rem;
-  padding-right:12rem;
+  padding-left:15%;
+  padding-right:15%;
   padding-top:5rem;
   /* padding: 0px; */
   /* height:1500px; */
   color: #fff;
+  background-color: #f7f7f7;
+
   /* background-color: #343a40; */
 }
 #about-section {
   padding-left:8rem;
   padding-right:8rem;
   padding-top:5rem;height:50rem;color: #fff;
-  /* background-color: #343a40; */
+  background-color: #f7f7f7;
 }
 #contact-section {
   padding-left:8rem;
   padding-right:8rem;
   padding-top:5rem;height:50rem;color: #fff;
-  /* background-color: #343a40; */
+  background-color: #f7f7f7;
 }
