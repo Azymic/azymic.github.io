@@ -48,10 +48,10 @@ p {
   height: 40rem;
   /* align-items: center;
   justify-content: center; */
-  background: #343a40
+  background: #343a40 url("placeholder.jpeg") fixed no-repeat;
   /* url("grey-skies-for-background.jpg") fixed no-repeat; */
-  /* background-position: 50% 50%; */
-  /* background-size: cover; */
+  background-position: 50% 50%;
+  background-size: cover;
 }
 .header-text {
   display: flex;
@@ -86,13 +86,16 @@ p {
   padding: .5rem 1rem;
 }
 .nav-link {
-  font-family: 'Montserrat', sans-serif;
-  padding: 1rem 0.5rem;
-
+  font-family: 'Comfortaa', sans-serif;
+  padding: 2rem 1rem;
+  /* right and left padding get overwritten by bootstrap */
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 /*TODO: find way to set padding for mobile, media tag not working*/
 .nav-link:hover {
-  background-color: #99cccc;
+  /* to override annoying Bootstrap forced colour */
+  color: #99cccc !important;
 }
 .featured-project {
   padding-right:8rem;
@@ -132,15 +135,18 @@ p {
   padding-top:5rem;
   /* padding: 0px; */
   /* height:1500px; */
-  color: #fff; background-color: #343a40;
+  color: #fff;
+  /* background-color: #343a40; */
 }
 #about-section {
   padding-left:8rem;
   padding-right:8rem;
-  padding-top:5rem;height:50rem;color: #fff; background-color: #343a40;
+  padding-top:5rem;height:50rem;color: #fff;
+  /* background-color: #343a40; */
 }
 #contact-section {
   padding-left:8rem;
   padding-right:8rem;
-  padding-top:5rem;height:50rem;color: #fff; background-color: #343a40;
+  padding-top:5rem;height:50rem;color: #fff;
+  /* background-color: #343a40; */
 }
