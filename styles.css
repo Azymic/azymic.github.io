@@ -139,7 +139,7 @@ https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
   object-fit: cover;
 
   /* circle with dark border on computer, TODO: make a square for mobile */
-  /* border-radius: 100%; */
+  border-radius: 100%;
   box-shadow: 5px 5px 20px #eee;
 }
 .overlay-img{
@@ -147,7 +147,7 @@ https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
  top: 0;
  height: 100%;
  width: 100%;
- /* border-radius: 100%; */
+ border-radius: 100%;
 
  background-color: #343a40;
  opacity: 0;
@@ -213,14 +213,14 @@ https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
   /* background-color: #343a40; */
 }
 #about-section {
-  padding-left:8rem;
-  padding-right:8rem;
+  padding-left:15%;
+  padding-right:15%;
   padding-top:5rem;height:50rem;color: #fff;
   background-color: #f7f7f7;
 }
 #contact-section {
-  padding-left:8rem;
-  padding-right:8rem;
+  padding-left:15%;
+  padding-right:15%;
   padding-top:5rem;height:50rem;color: #fff;
   background-color: #f7f7f7;
 }
