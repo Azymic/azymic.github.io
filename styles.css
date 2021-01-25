@@ -47,7 +47,8 @@ h4{
 }
 p {
   font-family: 'Avenir-light', sans-serif;
-  color: #d4d7d0;
+  color: #192129;
+  font-size: 1.5rem;
 }
 
 
@@ -71,6 +72,11 @@ p {
   justify-content: center;
   padding-left: 12rem;
   padding-right: 12rem;
+}
+.project-text {
+  font-family: 'Avenir-light', sans-serif;
+  color: #d4d7d0;
+  font-size: 1rem;
 }
 #tagline {
   color: #99cccc;
@@ -161,7 +167,7 @@ https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
  padding: 2rem;
 }
 .overlay-img:hover {
- opacity: 0.8;
+ opacity: 0.85;
 }
 .overlay-img p{
   margin: 0.5rem 0;
