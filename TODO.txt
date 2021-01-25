@@ -1,10 +1,20 @@
 TO DO:
 
-- featured projects
-    - fill out content/brief
-    - add 2 more projects
 - content for about and contact me
+- mobile site design
+	- how do i want to format projects for mobile?
+- draw new photo for background
+- cover photo doesn't show up on safari
+
+
 - link projects to github
+- click to copy email (javascript?)
+
+
+
+
+
+
 - why does bootstrap row mess with my margins? -15px
 - let sections expand dynamically as content changes (switch to "tall form in mobile")
 - fix navbar css on mobile
